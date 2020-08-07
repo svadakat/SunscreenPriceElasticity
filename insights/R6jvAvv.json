@@ -1,0 +1,285 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "price_elastic_dashboard",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "lines",
+      "variant": "normal",
+      "name": "EARNINGS",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "PRICE",
+          "type": "NUMERICAL",
+          "numParams": {
+            "mode": "TREAT_AS_ALPHANUM",
+            "nbBins": "5",
+            "binSize": 100,
+            "emptyBinsMode": "ZEROS",
+            "niceBounds": false
+          },
+          "maxValues": 100,
+          "generateOthersCategory": false,
+          "oneTickPerBin": true,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of Expenses \u003d 0, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of Expenses \u003d 0, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Sum of Expenses \u003d 2, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Sum of Expenses \u003d 2, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 2,
+              "label": "Sum of Expenses \u003d 4, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 2,
+              "label": "Sum of Expenses \u003d 4, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 3,
+              "label": "Sum of Expenses \u003d 6, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 3,
+              "label": "Sum of Expenses \u003d 6, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 4,
+              "label": "Sum of Expenses \u003d 8, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 4,
+              "label": "Sum of Expenses \u003d 8, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "Expenses \u003d 0",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "Expenses \u003d 2",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "Expenses \u003d 4",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "Expenses \u003d 6",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "Expenses \u003d 8",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": false,
+      "smoothing": false,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 3,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "yAxisLabel": "",
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 1.0,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACCUlEQVRoQ+2WPWgUQRiGn2/UIhuwsbCScAg2e5jaIhZRFMRUotiokEIFrY1gQK+IGHu1ECFopZ2cxCoHkkawklwsbCRGCwvBwsZbb17ZI2hElN278/ZWZ2EZhv3+3vcZmDX+s8f6rbcyUx+XuUnhJxEHwEbSHpLWcdbAbMk733g3N/W+372z1Ou74CxNe4kZu1y/j+yU0Nm381N389YqneCsAsdmntwDptfmj/6k8Z8V/DtjguCsR6ascYFwWcllnTsQzupUEXGLzz9u/0JyQeJ652cGqx3bt/NanlkC4TxulTE2EC4jtTwzB8J53CpjbCDcCzVdGdnF1m0xUoxRBYuB9I021f2KtIrZKuI1UsIWWnhLMJLOvrOme7+xkoBroXa67sU4Ahz6UVMNxCKmp1b7/OpPGgLhXgiXITcQLgOlXmYMhHtxrwy5gXBRlPRstkIrmUDsx2wC2PN9FuMlYhm0jLNPyCLk07t9FBHh0r1FmI/wjGKWfoswIjt4I72zN5XKoVBLs7vx7eOYTiLGN1JfgD3Cu4d2eG49R7lCQsORLsT2ATYNhAdodiGtAuFCbB9g06EmHD+IT7u2uyQUS1rDcdPaVm9ON7u+/v6u4Ku4aqV6CzgPfDCzcytnVh4PEOgvrTILri5UTwC3gR3Aneab5kVq+CKH76Z3ZsHdFB/GnCB4GKn0c6ZvwWGLKd3H0TIAAAAASUVORK5CYII\u003d",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "SIDEBAR"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "blanden",
+  "listed": false,
+  "name": "EARNINGS on price_elastic_dashboard",
+  "dashboardCreationId": "aBwdboc",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "blanden"
+    },
+    "lastModifiedOn": 1596825113283
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "blanden"
+    },
+    "lastModifiedOn": 1596825113283
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": true,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [
+      {
+        "id": "qbHGJYAl",
+        "name": "WhatIfModel"
+      }
+    ],
+    "includedManagedFolders": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [
+    {
+      "sectionTitle": "What-if Selections",
+      "sectionText": "Which pricing scenarios would you like to test?",
+      "tiles": [
+        {
+          "datasetName": "Prices",
+          "type": "INLINE_DATASET_EDIT",
+          "prompt": "Select prices to use for your whatif scenario"
+        },
+        {
+          "datasetName": "expenses",
+          "type": "INLINE_DATASET_EDIT",
+          "prompt": "Select expenses to use to calculate profit"
+        },
+        {
+          "datasetName": "pricing_scenarios_to_score",
+          "behavior": "INLINE_UPLOAD_REDETECT_AND_INFER",
+          "type": "UPLOAD_DATASET_SET_FILE",
+          "prompt": "Upload your file for your forecast horizon",
+          "help": "File should include the following columns:\nCALENDAR_DATE: a date\nHOLIDAY: a boolean\nIS_WEEKEND: a boolean\nIS_SCHOOLBREAK: a boolean\nAVERAGE_TEMPERATURE: an integer\nIS_OUTDOOOR: a boolean"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Run What-if Scenarios",
+      "sectionText": "After defining some scenarios, run them",
+      "tiles": [
+        {
+          "scenarioId": "SCOREDATA",
+          "type": "SCENARIO_RUN",
+          "prompt": "Score Data"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Review Results",
+      "sectionText": "After the scenarios have run review a visualization of the results",
+      "tiles": [
+        {
+          "dashboardId": "aBwdboc",
+          "type": "DASHBOARD_LINK",
+          "prompt": "Dashboard"
+        },
+        {
+          "dashboardId": "aBwdboc",
+          "format": {
+            "paperSize": "A4",
+            "orientation": "LANDSCAPE",
+            "fileType": "PDF"
+          },
+          "type": "DOWNLOAD_DASHBOARD_EXPORT",
+          "prompt": "Download it"
+        }
+      ]
+    }
+  ],
+  "label": "What-if Pricing Scenario",
+  "shortDesc": "The template *BurgerJointPriceElasticity* was created by suresh on Aug 07th 2020",
+  "tags": [],
+  "imgPattern": 4,
+  "showInitials": false,
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
+}

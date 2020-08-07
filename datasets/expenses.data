@@ -1,0 +1,22 @@
+{
+  "data": [
+    [
+      "2"
+    ],
+    [
+      "4"
+    ],
+    [
+      "6"
+    ],
+    [
+      "8"
+    ]
+  ],
+  "schema": {
+    "columns": [
+      {"name":"expenses","type":"double"}
+    ],
+    "userModified": false
+  }
+}

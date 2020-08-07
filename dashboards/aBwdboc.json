@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "id": "akTiwL6",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": true,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "title": "Profit",
+            "insightId": "og62Nff",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 5,
+              "left": 0,
+              "width": 12,
+              "height": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showName": true,
+              "showDescription": true,
+              "showCustomFields": true,
+              "showStorageType": false,
+              "showMeaning": false,
+              "showProgressBar": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "title": "Scenario details",
+            "insightId": "KLllxN7",
+            "insightType": "dataset_table",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "title": "Burger Pricing Outcome",
+      "showTitle": true
+    }
+  ],
+  "owner": "suresh",
+  "listed": true,
+  "name": "BurgerJointPriceElasticity\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 28,
+    "lastModifiedBy": {
+      "login": "suresh"
+    },
+    "lastModifiedOn": 1596828661859
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "suresh"
+    },
+    "lastModifiedOn": 1596822870658
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

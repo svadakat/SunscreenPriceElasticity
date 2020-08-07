@@ -1,0 +1,162 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 0,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 5242880000,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "timeout": -1
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "prediction",
+            "to": "PREDICTED_SALES"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "(PRICE-expenses)*PREDICTED_SALES",
+        "column": "PROFIT"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Pivot",
+      "params": {
+        "labelsColumn": "expenses",
+        "otherColumnsAction": "KEEP_IF_CONSTANT",
+        "indexColumn": "PRICE",
+        "valuesColumn": "PROFIT"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "PROFIT",
+          "expenses"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "2.0",
+            "to": "Expenses_2.0"
+          },
+          {
+            "from": "4.0",
+            "to": "Expenses_4.0"
+          },
+          {
+            "from": "6.0",
+            "to": "Expenses_6.0"
+          },
+          {
+            "from": "8.0",
+            "to": "Expenses_8.0"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "columnWidthsByName": {
+    "409.53035606145": 128,
+    "661.54903671465": 128,
+    "CALENDAR_DATE_parsed": 190,
+    "537.1523659943999": 143,
+    "IS_OUTDOOR": 100,
+    "IS_SCHOOLBREAK": 120,
+    "HOLIDAY": 100,
+    "402.8642744957999": 143,
+    "CALENDAR_DATE_parsed_month": 210,
+    "805.7285489915998": 143,
+    "441.58782148319995": 150,
+    "PREDICTED_SALES": 155,
+    "PRICE": 100,
+    "693.9237194735999": 143,
+    "PROFIT": 141,
+    "820.0916684688": 120,
+    "CALENDAR_DATE_parsed_day": 195,
+    "IS_WEEKEND": 100,
+    "CALENDAR_DATE_parsed_year": 203,
+    "AVERAGE_TEMPERATURE": 158,
+    "787.55837704125": 128,
+    "2.0": 134,
+    "4.0": 134,
+    "prediction": 141,
+    "6.0": 134,
+    "535.53969638805": 128,
+    "671.4404574929999": 143,
+    "8.0": 141,
+    "expenses": 100,
+    "567.7557704784": 120
+  },
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}

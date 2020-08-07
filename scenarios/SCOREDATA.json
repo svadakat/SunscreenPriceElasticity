@@ -1,0 +1,80 @@
+{
+  "projectKey": "BURGERJOINTPRICEELASTICITY",
+  "id": "SCOREDATA",
+  "type": "step_based",
+  "name": "Score Data",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 8,
+    "lastModifiedBy": {
+      "login": "richard"
+    },
+    "lastModifiedOn": 1596832681601
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": [
+      {
+        "id": "build_0_true_d_BURGERJOINTPRICEELASTICITY.pricing_scenarios_to_score_joined_d_BURGERJOINTPRICEELASTICITY.pricing_scenarios_prepared_d_BURGERJOINTPRICEELASTICITY.pricing_scenarios_prepared_scored_d_BURGERJOINTPRICEELASTICITY.pricing_scenarios_prepared_scored_joined_d_BURGERJOINTPRICEELASTICITY.pricing_scenarios_prepared_scored_joined_prepared",
+        "type": "build_flowitem",
+        "name": "build dataset pricing_scenarios_to_score_joined dataset pricing_scenarios_prepared dataset pricing_scenarios_prepared_scored dataset pricing_scenarios_prepared_scored_joined dataset pricing_scenarios_prepared_scored_joined_prepared",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "pricing_scenarios_prepared_scored_joined_prepared",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "refresh_chart_cache_aBwdboc",
+        "type": "refresh_chart_cache",
+        "name": "Step #2",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "force": true,
+          "dashboards": [
+            {
+              "smartName": "aBwdboc",
+              "name": "BurgerJointPriceElasticity\u0027s default dashboard"
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      }
+    ]
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

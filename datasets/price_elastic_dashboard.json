@@ -1,0 +1,214 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "excel",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "xlsx": false,
+    "preserveNumberFormatting": false,
+    "parseDatesToISO": false,
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "sheets": "*price-elasticity_1070_test"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "blanden"
+    },
+    "lastModifiedOn": 1596824527552
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "blanden"
+    },
+    "lastModifiedOn": 1596824527532
+  },
+  "tags": [],
+  "params": {
+    "uploadConnection": "Default (in DSS data dir.)",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "CALENDAR_DATE",
+        "type": "string"
+      },
+      {
+        "name": "PRICE",
+        "type": "string"
+      },
+      {
+        "name": "YEAR",
+        "type": "string"
+      },
+      {
+        "name": "HOLIDAY",
+        "type": "string"
+      },
+      {
+        "name": "IS_WEEKEND",
+        "type": "string"
+      },
+      {
+        "name": "IS_SCHOOLBREAK",
+        "type": "string"
+      },
+      {
+        "name": "AVERAGE_TEMPERATURE",
+        "type": "string"
+      },
+      {
+        "name": "IS_OUTDOOR",
+        "type": "string"
+      },
+      {
+        "name": "col_8",
+        "type": "string"
+      },
+      {
+        "name": "PREDICTED SALE",
+        "type": "string"
+      },
+      {
+        "name": "col_10",
+        "type": "string"
+      },
+      {
+        "name": "Expenses \u003d 0",
+        "type": "string"
+      },
+      {
+        "name": "Expenses \u003d 2",
+        "type": "string"
+      },
+      {
+        "name": "Expenses \u003d 4",
+        "type": "string"
+      },
+      {
+        "name": "Expenses \u003d 6",
+        "type": "string"
+      },
+      {
+        "name": "Expenses \u003d 8",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}

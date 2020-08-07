@@ -1,0 +1,19 @@
+{
+  "data": [
+    [
+      "14"
+    ],
+    [
+      "14.5"
+    ],
+    [
+      "15"
+    ]
+  ],
+  "schema": {
+    "columns": [
+      {"name":"prices","type":"double"}
+    ],
+    "userModified": false
+  }
+}
