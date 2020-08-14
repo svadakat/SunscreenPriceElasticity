@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 37,
+    "versionNumber": 45,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1597407118717
+    "lastModifiedOn": 1597407367619
   },
   "creationTag": {
     "versionNumber": 0,
@@ -247,7 +247,7 @@
     },
     "lastModifiedOn": 1596822870655
   },
-  "description": "\n##Bohemian Radishy Burger\n\nPrice elasticity is the degree with which the price of a product affects demand.\n\n\n It’s important for Microsoft to know how the burgers’ demand of the store reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of the burgers in the store in order to know how much the price can be increased. transactions of a Burger Cafè into the Microsoft building in China. ",
+  "description": "\n#Bohemian Radishy Burger Cafe\n\n##Price elasticity is the degree with which the price of a product affects demand.\n\n\nIt’s important for BR Burgers  to know how the burgers’ demand of the cafes in Venice Beach locations reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of the burgers in the store in order to know how much the price can be increased. ",
   "shortDesc": "The project *BurgerJointPriceElasticity* was created by suresh on Aug 07th 2020",
   "tags": [
     "imported"
@@ -261,28 +261,21 @@
         "items": [
           {
             "done": true,
-            "text": "Create the project",
+            "text": "@Richard To create the project",
             "createdOn": 1596822870656,
             "createdBy": "suresh",
             "stateChangedOn": 0
           },
           {
             "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
+            "text": "@Suresh to check the ML model ",
             "createdOn": 1596822870656,
             "createdBy": "suresh",
             "stateChangedOn": 0
           },
           {
             "done": false,
-            "text": "Import your [first dataset](projects/BURGERJOINTPRICEELASTICITY/datasets/new/)",
-            "createdOn": 1596822870656,
-            "createdBy": "suresh",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
+            "text": "@Mala to review the model",
             "createdOn": 1596822870656,
             "createdBy": "suresh",
             "stateChangedOn": 0
