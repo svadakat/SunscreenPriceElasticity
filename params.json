@@ -176,7 +176,7 @@
       }
     }
   },
-  "name": "Burgers- Price Elasticity",
+  "name": "Price Elasticity",
   "imgPattern": 4,
   "showInitials": false,
   "metrics": {
@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 32,
+    "versionNumber": 33,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1597063144926
+    "lastModifiedOn": 1597406677092
   },
   "creationTag": {
     "versionNumber": 0,
