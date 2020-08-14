@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "suresh"
+      "login": "admin"
     },
-    "lastModifiedOn": 1596823091480
+    "lastModifiedOn": 1597408056729
   },
   "creationTag": {
     "versionNumber": 0,
@@ -71,7 +71,9 @@
     },
     "lastModifiedOn": 1596823091461
   },
-  "tags": [],
+  "tags": [
+    "Train a Model to Predict Sales Volume Demand"
+  ],
   "params": {
     "uploadConnection": "Default (in DSS data dir.)",
     "notReadyIfEmpty": false,
