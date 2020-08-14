@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 34,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1597406912129
+    "lastModifiedOn": 1597407032008
   },
   "creationTag": {
     "versionNumber": 0,
@@ -247,7 +247,7 @@
     },
     "lastModifiedOn": 1596822870655
   },
-  "description": "#transactions of a Burger Cafè into the Microsoft building in China. The pressure on costs makes it necessary to revisit prices in excess. It’s important for Microsoft to know how the burgers’ demand of the store reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of the burgers in the store in order to know how much the price can be increased. In fact the price elasticity is the degree with which the price of a product affects the its demand.",
+  "description": "\n#\nPrice elasticity is the degree with which the price of a product affects demand.\n\n\n It’s important for Microsoft to know how the burgers’ demand of the store reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of the burgers in the store in order to know how much the price can be increased. transactions of a Burger Cafè into the Microsoft building in China. ",
   "shortDesc": "The project *BurgerJointPriceElasticity* was created by suresh on Aug 07th 2020",
   "tags": [
     "imported"
