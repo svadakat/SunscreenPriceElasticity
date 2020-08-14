@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "richard"
+      "login": "admin"
     },
-    "lastModifiedOn": 1596826215803
+    "lastModifiedOn": 1597408097624
   },
   "creationTag": {
     "versionNumber": 0,
@@ -49,7 +49,9 @@
     },
     "lastModifiedOn": 1596826187105
   },
-  "tags": [],
+  "tags": [
+    "Use the Model to Predict Demand"
+  ],
   "params": {
     "keepTrackOfChanges": false,
     "notReadyIfEmpty": false,

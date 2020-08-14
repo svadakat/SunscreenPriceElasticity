@@ -3,6 +3,7 @@
     "imported": {
       "color": "#263238"
     },
-    "Train a Model to Predict Sales Volume Demand": {}
+    "Train a Model to Predict Sales Volume Demand": {},
+    "Use the Model to Predict Demand": {}
   }
 }

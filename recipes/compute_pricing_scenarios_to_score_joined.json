@@ -32,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "suresh"
+      "login": "admin"
     },
-    "lastModifiedOn": 1596826295064
+    "lastModifiedOn": 1597408097639
   },
   "creationTag": {
     "versionNumber": 0,
@@ -45,7 +45,9 @@
     },
     "lastModifiedOn": 1596826245333
   },
-  "tags": [],
+  "tags": [
+    "Use the Model to Predict Demand"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []

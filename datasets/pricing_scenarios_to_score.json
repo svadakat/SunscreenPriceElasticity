@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "suresh"
+      "login": "admin"
     },
-    "lastModifiedOn": 1596826398061
+    "lastModifiedOn": 1597408097613
   },
   "creationTag": {
     "versionNumber": 0,
@@ -71,7 +71,9 @@
     },
     "lastModifiedOn": 1596826153594
   },
-  "tags": [],
+  "tags": [
+    "Use the Model to Predict Demand"
+  ],
   "params": {
     "uploadConnection": "Default (in DSS data dir.)",
     "notReadyIfEmpty": false,

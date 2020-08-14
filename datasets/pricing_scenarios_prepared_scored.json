@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "suresh"
+      "login": "admin"
     },
-    "lastModifiedOn": 1596826645551
+    "lastModifiedOn": 1597408097666
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1596826645551
   },
-  "tags": [],
+  "tags": [
+    "Use the Model to Predict Demand"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "/BURGERJOINTPRICEELASTICITY.pricing_scenarios_prepared_scored",
