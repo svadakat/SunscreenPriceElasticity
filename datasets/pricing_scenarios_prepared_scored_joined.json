@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "suresh"
+      "login": "admin"
     },
-    "lastModifiedOn": 1596826716521
+    "lastModifiedOn": 1597408171344
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1596826716515
   },
-  "tags": [],
+  "tags": [
+    "Visualize Predictions with Cost Assumptions"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "/BURGERJOINTPRICEELASTICITY.pricing_scenarios_prepared_scored_joined",
