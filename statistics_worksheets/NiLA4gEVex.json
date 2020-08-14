@@ -29,16 +29,483 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "xColumns": [
+          {
+            "name": "HOLIDAY",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "IS_SCHOOLBREAK",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "QUANTITY",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "PRICE",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "HOLIDAY",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "HOLIDAY",
+                  "type": "CATEGORICAL"
+                },
+                "id": "R2pKY36"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "HOLIDAY",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xzndwJO"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "HOLIDAY",
+                  "type": "CATEGORICAL"
+                },
+                "id": "G0HimwK"
+              }
+            ],
+            "id": "ov6Nxo2"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "IS_SCHOOLBREAK",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "IS_SCHOOLBREAK",
+                  "type": "CONTINUOUS"
+                },
+                "id": "qiotWgb"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "IS_SCHOOLBREAK",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Zhj9COz"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "IS_SCHOOLBREAK",
+                  "type": "CONTINUOUS"
+                },
+                "id": "M1nXFq2"
+              }
+            ],
+            "id": "SgBMaL0"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "QUANTITY",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "goMcPdm"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "G5HxYo9"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ffr5Yy7"
+              }
+            ],
+            "id": "fvjpVPY"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "PRICE",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "id": "QajIh0g"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XhIzsCD"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "id": "rcCI5UT"
+              }
+            ],
+            "id": "m36Dw1s"
+          }
+        ],
+        "id": "i0JSTSN"
+      },
+      {
+        "type": "bivariate_header",
+        "yColumn": {
+          "name": "QUANTITY",
+          "type": "CONTINUOUS"
+        },
+        "showMosaicPlot": true,
+        "showHistogram": true,
+        "showScatterPlot": true,
+        "showFrequencyTable": true,
+        "showBoxPlot": true,
+        "showSummary": true,
+        "xColumns": [
+          {
+            "name": "PRICE",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "PRICE",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "scatter_plot",
+                "symbolSize": 4,
+                "xColumn": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "rwORADF"
+              },
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "hBuczwp"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "DNSSSFY"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Sr1Ixvj"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "PYGgym9"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "PRICE",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "QUANTITY",
+                  "type": "CONTINUOUS"
+                },
+                "id": "nmVAbq3"
+              }
+            ],
+            "id": "NwIWSWS"
+          }
+        ],
+        "id": "5pXebpM"
+      },
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "PRICE",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "QUANTITY",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "IS_WEEKEND",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "IS_SCHOOLBREAK",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "AVERAGE_TEMPERATURE",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "lAkYaXm"
+      }
+    ],
     "id": "Z9YW6rM"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1597408269911
+    "lastModifiedOn": 1597408346842
   },
   "creationTag": {
     "versionNumber": 0,
