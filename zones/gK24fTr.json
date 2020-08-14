@@ -53,6 +53,10 @@
     {
       "objectId": "pricing_scenarios_prepared_scored_joined_prepared",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "price_elastic_dashboard",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
