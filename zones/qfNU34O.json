@@ -1,7 +1,28 @@
 {
   "name": "Train a Volume Prediction Model",
   "color": "#D03713",
-  "items": [],
+  "items": [
+    {
+      "objectId": "BurgerSales_Training",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_BurgerSales_Training_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "BurgerSales_Training_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_WhatIfModel",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "qbHGJYAl",
+      "objectType": "SAVED_MODEL"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
