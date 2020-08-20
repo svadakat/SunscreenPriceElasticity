@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "iSyMILV",
+    "id": "cSwkKTbC6TroFDZ3",
+    "key": "WoWTuevYB6KYxhCSOiMCl9hwAmefMpUN",
+    "label": "Key for Web app MySimpleWebapp(iSyMILV)",
+    "createdOn": 1597925703035
+  }
+]
