@@ -52,7 +52,7 @@
     "main": {
       "items": [
         {
-          "ref": "BurgerSales_Training",
+          "ref": "Sunscreen_Training",
           "deps": []
         }
       ]
@@ -69,11 +69,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1597408056741
+    "lastModifiedOn": 1599135106460
   },
   "creationTag": {
     "versionNumber": 0,
