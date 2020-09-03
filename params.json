@@ -250,11 +250,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 55,
+    "versionNumber": 58,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599131756360
+    "lastModifiedOn": 1599133098243
   },
   "creationTag": {
     "versionNumber": 0,
@@ -274,7 +274,7 @@
   "checklists": {
     "checklists": [
       {
-        "title": "Your new project\u0027s Todo",
+        "title": "This project\u0027s Todo List",
         "createdOn": 0,
         "items": [
           {
@@ -296,6 +296,20 @@
             "text": "@Mala to review the model",
             "createdOn": 1596822870656,
             "createdBy": "suresh",
+            "stateChangedOn": 0
+          }
+        ]
+      },
+      {
+        "id": "ef5761",
+        "title": "Key project management links",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": false,
+            "text": "This project\u0027s Wiki [link](http://localhost:11500/projects/BURGERJOINTPRICEELASTICITY/wiki/1/Always%20Sunscreen%20Pricing%20Analysis) provides more details",
+            "createdOn": 1599133050334,
+            "createdBy": "admin",
             "stateChangedOn": 0
           }
         ]
