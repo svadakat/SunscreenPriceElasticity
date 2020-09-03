@@ -61,14 +61,14 @@
   ],
   "owner": "suresh",
   "listed": true,
-  "name": "BurgerJointPriceElasticity\u0027s default dashboard",
+  "name": "Sunscreen PriceElasticity\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 37,
+    "versionNumber": 38,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599142289866
+    "lastModifiedOn": 1599142316449
   },
   "creationTag": {
     "versionNumber": 0,
