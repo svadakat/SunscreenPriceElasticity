@@ -14,6 +14,9 @@
             },
             "Sunscreen_Training": {
               "repartition": 10
+            },
+            "SunscreenPricingData": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599135423666
+    "lastModifiedOn": 1599165364713
   },
   "creationTag": {
     "versionNumber": 0,
