@@ -250,11 +250,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 58,
+    "versionNumber": 59,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599133098243
+    "lastModifiedOn": 1599141936954
   },
   "creationTag": {
     "versionNumber": 0,
@@ -263,7 +263,7 @@
     },
     "lastModifiedOn": 1596822870655
   },
-  "description": "\n#Always Sunscreen from Ozone Pharma\n\n##Price elasticity is the degree with which the price of a product affects demand.\n\nIt’s important for Ozone Pharma  to understand  how the sunscreen demand in Venice Beach locations reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of their marquee products  in the store in order to know how much the price can be increased. ",
+  "description": "\n#Always Sunscreen from Ozone Pharma\n\n##Build a What-IF Pricing tool to understand  the degree with which new pricing campaigns for Always Sunscreen SKU  affects demand.\n\nIt’s important for Ozone Pharma  to understand  how the sunscreen demand in Venice Beach locations reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of their marquee products  in the store in order to know how much the price can be increased. ",
   "shortDesc": "The project *SunscreenPriceElasticity* was created by suresh on Aug 07th 2020",
   "tags": [
     "pricing",
