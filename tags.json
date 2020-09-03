@@ -5,6 +5,9 @@
     },
     "Train a Model to Predict Sales Volume Demand": {},
     "Use the Model to Predict Demand": {},
-    "Visualize Predictions with Cost Assumptions": {}
+    "Visualize Predictions with Cost Assumptions": {},
+    "pricing": {},
+    "campaignresponse": {},
+    "dashboarding": {}
   }
 }
