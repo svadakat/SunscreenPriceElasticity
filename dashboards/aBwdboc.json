@@ -55,7 +55,7 @@
           }
         ]
       },
-      "title": "Sunscreen Pricing Outcome",
+      "title": "Sunscreen Profit Scenario Estimates",
       "showTitle": true
     }
   ],
@@ -64,11 +64,11 @@
   "name": "Sunscreen PriceElasticity\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 38,
+    "versionNumber": 39,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599142316449
+    "lastModifiedOn": 1599142373490
   },
   "creationTag": {
     "versionNumber": 0,
