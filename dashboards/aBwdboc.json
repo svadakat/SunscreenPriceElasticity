@@ -87,11 +87,11 @@
   "name": "BurgerJointPriceElasticity\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 35,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599142243138
+    "lastModifiedOn": 1599142243561
   },
   "creationTag": {
     "versionNumber": 0,
