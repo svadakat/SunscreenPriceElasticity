@@ -11,6 +11,9 @@
           "map": {
             "BurgerSales_Training": {
               "repartition": 10
+            },
+            "Sunscreen_Training": {
+              "repartition": 10
             }
           }
         },
@@ -69,11 +72,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599135106460
+    "lastModifiedOn": 1599135114208
   },
   "creationTag": {
     "versionNumber": 0,
