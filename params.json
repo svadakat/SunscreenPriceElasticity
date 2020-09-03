@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 46,
+    "versionNumber": 48,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599130467570
+    "lastModifiedOn": 1599131071575
   },
   "creationTag": {
     "versionNumber": 0,
@@ -248,7 +248,7 @@
     "lastModifiedOn": 1596822870655
   },
   "description": "\n#Bohemian Radishy Burger Cafe\n\n##Price elasticity is the degree with which the price of a product affects demand.\n\n\nIt’s important for BR Burgers  to know how the burgers’ demand of the cafes in Venice Beach locations reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of the burgers in the store in order to know how much the price can be increased. ",
-  "shortDesc": "The project *BurgerJointPriceElasticity* was created by suresh on Aug 07th 2020",
+  "shortDesc": "The project *SunscreenPriceElasticity* was created by suresh on Aug 07th 2020",
   "tags": [
     "pricing",
     "campaignresponse",
