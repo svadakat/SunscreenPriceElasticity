@@ -64,11 +64,11 @@
   "name": "Sunscreen PriceElasticity\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 41,
+    "versionNumber": 42,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599761855219
+    "lastModifiedOn": 1599761961666
   },
   "creationTag": {
     "versionNumber": 0,
