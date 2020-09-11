@@ -193,7 +193,7 @@
       }
     }
   },
-  "name": "Price Elasticity",
+  "name": "Price Elasticity (secondbranch)",
   "imgPattern": 4,
   "showInitials": false,
   "metrics": {
@@ -251,11 +251,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 69,
+    "versionNumber": 70,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599829034286
+    "lastModifiedOn": 1599829037319
   },
   "creationTag": {
     "versionNumber": 0,
@@ -265,7 +265,7 @@
     "lastModifiedOn": 1596822870655
   },
   "description": "\n#Always Sunscreen from Ozone Pharma\n\n##Build a What-IF Pricing tool to understand  the degree with which new pricing campaigns for Always Sunscreen SKU  affects demand.\n\nIt’s important for Ozone Pharma  to understand  how the sunscreen demand in Venice Beach locations reacts to a price increment. In other words, it’s essential to know the price elasticity (of demand) of their marquee products  in the store in order to know how much the price can be increased. ",
-  "shortDesc": "-- Change this The project *SunscreenPriceElasticity* was created by suresh on Aug 07th 2020\u003e\u003e\u003e",
+  "shortDesc": "-- Change this The project *SunscreenPriceElasticity* was created by suresh on Aug 07th 2020\u003e\u003e\u003e\nThe project *PRICE_ELASTICITY_SECONDBRANCH* was copied from *BURGERJOINTPRICEELASTICITY* by Administrator on Sep 11th 2020",
   "tags": [
     "pricing",
     "campaignresponse",
