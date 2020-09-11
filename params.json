@@ -251,11 +251,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 68,
+    "versionNumber": 69,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1599828036357
+    "lastModifiedOn": 1599829034286
   },
   "creationTag": {
     "versionNumber": 0,
@@ -269,7 +269,8 @@
   "tags": [
     "pricing",
     "campaignresponse",
-    "dashboarding"
+    "dashboarding",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
