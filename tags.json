@@ -1,13 +1,16 @@
 {
   "tags": {
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "Visualize Predictions with Cost Assumptions": {},
     "imported": {
       "color": "#263238"
     },
     "Train a Model to Predict Sales Volume Demand": {},
-    "Use the Model to Predict Demand": {},
-    "Visualize Predictions with Cost Assumptions": {},
-    "pricing": {},
     "campaignresponse": {},
-    "dashboarding": {}
+    "dashboarding": {},
+    "Use the Model to Predict Demand": {},
+    "pricing": {}
   }
 }
